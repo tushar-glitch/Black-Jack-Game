@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="blackjack.css">
+  <title>Black Jack</title>
+</head>
+
+<body>
+  <h1 id="header">Black Jack</h1>
+  <button id="btn1" onclick="startgame1()">START</button>
+
+
+  <h3 id="nop">Number of players</h3>
+  <button id="btn3" onclick="startgame2a()">2 Players</buttodn>
+    <button id="btn4" onclick="startgame2b()">4 Players</button>
+
+    <p id="player1">Player1:<input type="text" placeholder="Your name..." id="input1"></p>
+    <p id="player2">Player2:<input type="text" placeholder="Your name..." id="input2"></p>
+    <p id="player3">Player3:<input type="text" placeholder="Your name..." id="input3"></p>
+    <p id="player4">Player4:<input type="text" placeholder="Your name..." id="input4"></p>
+
+    <button id="cont" onclick="contbtn()">Continue</button>
+    <h2 id=name></h2>
+
+    <h1 id="counter-el" class="secondscreen">0</h1>
+    <h3 id="formal" class="secondscreen">Lets start the game</h3>
+    <button id="btn2" class="secondscreen" onclick="startgame()">NEW CARD</button>
+    <button id="stop">Stop here</button>
+
+    <script src="blackjack.js"></script>
+</body>
+
+</html>
